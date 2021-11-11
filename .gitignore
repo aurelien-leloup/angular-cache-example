@@ -1,2 +1,3 @@
-*.ibc
-*.o
+/.idea/
+/angular-cache-example.iml
+/node_modules/

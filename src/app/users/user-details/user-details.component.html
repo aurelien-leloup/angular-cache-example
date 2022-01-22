@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;" *ngIf="user$ | async as user">
+  <img [src]="user.avatar" class="card-img-top" alt="user avatar">
+  <div class="card-body">
+    <h5 class="card-title">{{user.first_name}} {{user.last_name}}</h5>
+    <p class="card-text">
+      Id : {{user.id}}<br/>
+      e-mail : {{user.email}}
+    </p>
+    <a routerLink="/users" class="btn btn-primary">Go back to list</a>
+  </div>
+</div>

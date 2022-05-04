@@ -38,6 +38,6 @@ export abstract class AbstractCacheService<T> {
   }
 
   clearCache() {
-    this.cache = null;
+    this.cache = {};
   }
 }
